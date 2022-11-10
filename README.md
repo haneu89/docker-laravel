@@ -23,7 +23,7 @@ RUN chown -R www-data:www-data /app
 ```
 docker buildx build \
 --platform linux/amd64,linux/arm64,linux/arm/v7 \
--t haneu89/laravel:php73 \
+-t haneu89/laravel:php74 \
 --push .
 
 docker buildx build \

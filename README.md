@@ -28,4 +28,7 @@ docker buildx build \
 
 docker buildx create --name jinwork
 docker buildx use jinwork
+
+docker build -t haneu89/laravel:php82 .
+docker push haneu89/laravel:php82
 ```
